@@ -1,7 +1,10 @@
 If running locally, need to also download and run https://github.com/AlexNovitchkovBurbank/sending-messages-nav-component, nav-component, locally.
+Note: cannot run locally because goes through api gateway, https://github.com/AlexNovitchkovBurbank/sending-messages-api-gateway, that has authentication via cognito, https://github.com/AlexNovitchkovBurbank/sending-messages-CognitoUserPoolClient.
 
-1. Run the nav-component on localhost using "npm run start"
-2. Run this page on localhost using "npm run start"
-3. Put the localhost path of this page in a browser
+CloudFront distribution: https://github.com/AlexNovitchkovBurbank/sending-messages-cloudfront
+Code deployment bucket, S3: https://github.com/AlexNovitchkovBurbank/sending-messages-code-deployment-bucket
+Route53: https://github.com/AlexNovitchkovBurbank/sending-messages-route53
+SSL certificate: https://github.com/AlexNovitchkovBurbank/sending-messages-ssl-certificate
+SES and the backend: https://github.com/AlexNovitchkovBurbank/Sending-messages-crud-bff
 
-Sending-messages-crud-bff, https://github.com/AlexNovitchkovBurbank/Sending-messages-crud-bff, is the backend deployed in AWS.
+All of which are deployed to AWS
